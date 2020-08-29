@@ -9,7 +9,7 @@ class Shape{
       this.body = Bodies.circle(x,y,diameter/2,options);
       this.diameter = diameter;
 
-      this.image = loadImage("./hexagon.png");
+      this.image = loadImage("hexagon.png");
 
       World.add(world,this.body);
       World.add(world,this.image);
