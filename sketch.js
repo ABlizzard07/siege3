@@ -7,7 +7,7 @@ var points = 0;
 var bg = "white";
 
 function preload(){
-  changeBackground();
+  //changeBackground();
 }
 
 function setup() {
@@ -198,7 +198,7 @@ function keyPressed(){
   }
 }
 
-async function changeBackground(){
+/* async function changeBackground(){
   var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
   var responseJSON = await response.json();
 
@@ -212,4 +212,4 @@ async function changeBackground(){
       bg = "#0D193F";
   }
   console.log(datetime);
-}
+} */
