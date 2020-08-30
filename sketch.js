@@ -61,7 +61,7 @@ function draw() {
   background(bg);
 
   textSize(20);
-  fill("white");
+  fill("red");
   text("Destroy all blocks and get the highest score possible!",100,60);
   text("Score"+"="+points,700,60);
   text("Press space to play again!",1000,60);
