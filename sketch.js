@@ -7,7 +7,7 @@ var points = 0;
 var bg = "white";
 
 function preload(){
-  //changeBackground();
+  changeBackground();
 }
 
 function setup() {
