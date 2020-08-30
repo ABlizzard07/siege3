@@ -198,8 +198,8 @@ function keyPressed(){
   }
 }
 
-/* async function changeBackground(){
-  var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
+ async function changeBackground(){
+  var response = await fetch("https://worldtimeapi.org/api/timezone/Asia/Kolkata");
   var responseJSON = await response.json();
 
   var datetime = responseJSON.datetime;
@@ -212,4 +212,4 @@ function keyPressed(){
       bg = "#0D193F";
   }
   console.log(datetime);
-} */
+} 
