@@ -182,7 +182,7 @@ function detectCollision(lshape,lblock){
      block25.score();
      console.log(lblock.body.speed)
 
-     if(shape.body.speed < 1){
+     if(shape.body.speed < 0.5){
       chain.attach(shape.body);
       Body.setStatic(shape.body,true);
       Body.setPosition(shape.body, {x: 250 , y: 200}); 
