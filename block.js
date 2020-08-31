@@ -13,7 +13,7 @@ class Block {
     console.log(this.visibility);
   }
   score(){
-    if(this.visibility == 0){
+    if(this.visibility < 0 && this.visibility > -105){
      points ++;
     }
   }
@@ -31,7 +31,7 @@ class Block {
     }
     else{
       push();
-      this.visibility = 0;
+      this.visibility = this.visibility - 5;
       tint(255,this.visiblity);
       pop();  
       World.remove(world, this.body); 
